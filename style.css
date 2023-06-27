@@ -234,3 +234,10 @@ a{
     justify-content: flex-start;
     color: #007185;
 }
+
+.box2-image{
+    background-image: url("box2_image.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
