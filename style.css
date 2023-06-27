@@ -210,16 +210,17 @@ a{
 .shop-section{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #e2e6e7;
 }
 
 .box{
     height: 420px;
     width: 23%;
-    border: 2px solid black;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* border: 2px solid black; */
+    padding: 20px 0px 15px;
+    background-color: white;
+    margin: 15px;
 }
 
 .box1-image{
@@ -227,6 +228,8 @@ a{
     background-size: cover;
     width: 300px;
     height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .shop-section a {
@@ -240,4 +243,58 @@ a{
     background-size: cover;
     width: 300px;
     height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box3-image{
+    background-image: url("box3_image.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box4-image{
+    background-image: url("box4_image.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box5-image{
+    background-image: url("box5_image.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box6-image{
+    background-image: url("box6_image.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box7-image{
+    background-image: url("box7_image.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box8-image{
+    background-image: url("box8_image.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
